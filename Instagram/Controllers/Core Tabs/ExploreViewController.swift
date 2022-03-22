@@ -17,7 +17,6 @@ class ExploreViewController: UIViewController {
     
     private var collectionView: UICollectionView?
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,8 +36,6 @@ class ExploreViewController: UIViewController {
 
         view.addSubview(collectionView)
     }
-    
-
 }
 
 extension ExploreViewController: UICollectionViewDataSource,

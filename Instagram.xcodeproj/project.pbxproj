@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2186354D27E9AAD700FBB980 /* IGFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186354C27E9AAD700FBB980 /* IGFeedPostTableViewCell.swift */; };
+		2186355027E9AF1500FBB980 /* IGFeedPostHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186354F27E9AF1500FBB980 /* IGFeedPostHeaderTableViewCell.swift */; };
+		2186355227E9AFCE00FBB980 /* IGFeedPostActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186355127E9AFCE00FBB980 /* IGFeedPostActionsTableViewCell.swift */; };
+		2186355427E9AFF300FBB980 /* IGFeedPostGeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2186355327E9AFF300FBB980 /* IGFeedPostGeneralTableViewCell.swift */; };
 		218827EE27E757C800717012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218827ED27E757C800717012 /* AppDelegate.swift */; };
 		218827F027E757C800717012 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218827EF27E757C800717012 /* SceneDelegate.swift */; };
 		218827F227E757C800717012 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218827F127E757C800717012 /* HomeViewController.swift */; };
@@ -39,6 +43,10 @@
 		0AA258F19920658D7CE36813 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		0FA923A2236C68D727A44A68 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		1995EB52125F6FFA4E2492DC /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2186354C27E9AAD700FBB980 /* IGFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		2186354F27E9AF1500FBB980 /* IGFeedPostHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		2186355127E9AFCE00FBB980 /* IGFeedPostActionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostActionsTableViewCell.swift; sourceTree = "<group>"; };
+		2186355327E9AFF300FBB980 /* IGFeedPostGeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGFeedPostGeneralTableViewCell.swift; sourceTree = "<group>"; };
 		218827EA27E757C800717012 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		218827ED27E757C800717012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		218827EF27E757C800717012 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +88,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2186354B27E9AAB000FBB980 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2186354E27E9ABF200FBB980 /* HomeFeed */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2186354E27E9ABF200FBB980 /* HomeFeed */ = {
+			isa = PBXGroup;
+			children = (
+				2186354C27E9AAD700FBB980 /* IGFeedPostTableViewCell.swift */,
+				2186354F27E9AF1500FBB980 /* IGFeedPostHeaderTableViewCell.swift */,
+				2186355127E9AFCE00FBB980 /* IGFeedPostActionsTableViewCell.swift */,
+				2186355327E9AFF300FBB980 /* IGFeedPostGeneralTableViewCell.swift */,
+			);
+			path = HomeFeed;
+			sourceTree = "<group>";
+		};
 		218827E127E757C800717012 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +149,7 @@
 		2188280227E7583700717012 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2186354B27E9AAB000FBB980 /* Cells */,
 				2188280527E7587400717012 /* Storyboards */,
 				218827F627E757C900717012 /* Assets.xcassets */,
 			);
@@ -342,19 +370,23 @@
 				2188280927E758EF00717012 /* CameraViewController.swift in Sources */,
 				2188280B27E7590000717012 /* NotificationViewController.swift in Sources */,
 				2188281427E7598500717012 /* RegistrationViewController.swift in Sources */,
+				2186355027E9AF1500FBB980 /* IGFeedPostHeaderTableViewCell.swift in Sources */,
 				2188282227E75A1700717012 /* PostEditorViewController.swift in Sources */,
 				2192107227E849FC00D7A0ED /* StorageManager.swift in Sources */,
 				2188281627E7599B00717012 /* PostViewController.swift in Sources */,
 				2192106E27E848FF00D7A0ED /* DatabaseManager.swift in Sources */,
 				218827F227E757C800717012 /* HomeViewController.swift in Sources */,
+				2186354D27E9AAD700FBB980 /* IGFeedPostTableViewCell.swift in Sources */,
 				2188282027E759E800717012 /* SearchResultViewController.swift in Sources */,
 				2188281227E7596F00717012 /* LoginViewController.swift in Sources */,
 				2192107427E84D6B00D7A0ED /* Extensions.swift in Sources */,
+				2186355427E9AFF300FBB980 /* IGFeedPostGeneralTableViewCell.swift in Sources */,
 				2188281E27E759DC00717012 /* SearchViewController.swift in Sources */,
 				2188280D27E7590C00717012 /* ProfileViewController.swift in Sources */,
 				2192107027E849AA00D7A0ED /* AuthManager.swift in Sources */,
 				218827EE27E757C800717012 /* AppDelegate.swift in Sources */,
 				218827F027E757C800717012 /* SceneDelegate.swift in Sources */,
+				2186355227E9AFCE00FBB980 /* IGFeedPostActionsTableViewCell.swift in Sources */,
 				2188281C27E759CE00717012 /* ListViewController.swift in Sources */,
 				2188281A27E759BF00717012 /* SettingsViewController.swift in Sources */,
 			);
